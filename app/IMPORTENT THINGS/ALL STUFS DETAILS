@@ -1,0 +1,89 @@
+==========================================================
+🔥 CLEAR CACHE & SESSION IN ONE LINE
+==========================================================
+
+php artisan cache:clear; php artisan config:clear; php artisan route:clear; php artisan view:clear
+php artisan serve
+
+// ✅ Clear Session Data
+php artisan session:clear
+
+// ✅ If this doesn’t work, manually delete session files:
+rm -rf storage/framework/sessions/\*
+
+==========================================================
+🔥 COMMON LARAVEL COMMANDS
+==========================================================
+
+## Command | Description
+
+php artisan serve | Start the Laravel development server.
+php artisan cache:clear | Clear the application cache.
+php artisan config:clear | Clear the config cache.
+php artisan route:clear | Clear the route cache.
+php artisan view:clear | Clear compiled Blade view files.
+php artisan migrate | Run all migrations to create tables.
+php artisan migrate:fresh | Drop all tables and re-run migrations. ⚠️ Deletes all data!
+php artisan db:seed | Run the database seeder to add dummy data.
+php artisan storage:link | Create a symbolic link for file storage (for images, etc.).
+php artisan optimize:clear | Clear all caches in one go.
+
+⚠️ **This will delete all data and recreate tables!**
+php artisan migrate:fresh
+
+==========================================================
+📌 HELPFUL DEBUGGING TECHNIQUES
+==========================================================
+
+// ✅ 1. Check Session Data
+If session data (like cart) is not updating, use:
+dd(session()->all());
+
+// ✅ 2. Start Interactive Debugging (Exit using `exit`)
+php artisan tinker
+
+==========================================================
+🔥 ENSURE STORAGE IS LINKED
+==========================================================
+
+// ✅ Run this command ONLY ONCE to make sure Laravel can access images:
+php artisan storage:link
+
+==========================================================
+📌 CREATING FILES IN LARAVEL
+==========================================================
+
+## File Type | Command
+php artisan migrate --path=/database/migrations/2025_04_09_163935_add_admin_reply_to_reviews_table.php
+php artisan migrate --path=/database/migrations/2025_04_09_163935_add_admin_reply_to_reviews_table.php
+php artisan migrate --path=/database/migrations/2025_04_09_163935_add_admin_reply_to_reviews_table.php
+
+Controller | php artisan make:controller NameController
+Model | php artisan make:model Name
+Migration | php artisan make:migration create_names_table
+Seeder | php artisan make:seeder NameSeeder
+Factory | php artisan make:factory NameFactory
+Request | php artisan make:request NameRequest
+Middleware | php artisan make:middleware NameMiddleware
+Blade View | touch resources/views/name.blade.php
+Command | php artisan make:command NameCommand
+Component | php artisan make:component NameComponent
+
+==========================================================
+🔥 RESOURCEFUL CONTROLLER (CRUD INCLUDED)
+==========================================================
+
+php artisan make:controller ProductController --resource
+
+==========================================================
+📌 CREATING A MODEL WITH EVERYTHING
+==========================================================
+
+
+php artisan make:model Product -mfsc
+➡ Creates: app/Models/Product.php with migration, factory, seeder, and controller.
+==============================================================================================================================================
+$admin = App\Models\User::where('email', 'admin@example.com')->first();
+$admin->password = bcrypt('admin123');
+$admin->save();
+

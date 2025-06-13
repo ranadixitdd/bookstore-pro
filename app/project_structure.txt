@@ -1,0 +1,50 @@
+Folder PATH listing for volume Windows
+Volume serial number is 64B7-10BF
+C:.
+¦   project_structure.txt
+¦   
++---Http
+¦   ¦   Kernel.php
+¦   ¦   
+¦   +---Controllers
+¦   ¦   ¦   AuthController.php
+¦   ¦   ¦   BookController.php
+¦   ¦   ¦   CartController.php
+¦   ¦   ¦   CheckoutController.php
+¦   ¦   ¦   Controller.php
+¦   ¦   ¦   HomeController.php
+¦   ¦   ¦   OrderController.php
+¦   ¦   ¦   ProductController.php
+¦   ¦   ¦   UserController.php
+¦   ¦   ¦   
+¦   ¦   +---Admin
+¦   ¦   ¦       AdminAuthController.php
+¦   ¦   ¦       AdminController.php
+¦   ¦   ¦       AdminOrderController.php
+¦   ¦   ¦       AdminProductController.php
+¦   ¦   ¦       AdminUserController.php
+¦   ¦   ¦       
+¦   ¦   +---Auth
+¦   ¦           ForgotPasswordController.php
+¦   ¦           LoginController.php
+¦   ¦           RegisterController.php
+¦   ¦           ResetPasswordController.php
+¦   ¦           
+¦   +---Middleware
+¦           AdminMiddleware.php
+¦           
++---Models
+¦       admin.php
+¦       auth.php
+¦       Book.php
+¦       Cart.php
+¦       Category.php
+¦       Order.php
+¦       OrderItem.php
+¦       Payment.php
+¦       Product.php
+¦       User.php
+¦       
++---Providers
+        AppServiceProvider.php
+        

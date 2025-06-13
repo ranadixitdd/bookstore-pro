@@ -1,0 +1,24 @@
+﻿title, name, author, price, category_id, description, category, image, stock, best_seller
+The Great Book,Great Book,John Doe,19.99,1,A fascinating book,Fiction,cover1.jpg,100,1
+Another Story,Story Book,Jane Smith,29.99,2,A thrilling novel,Non-fiction,cover2.jpg,50,0
+Mystery Tales,The Mystery,Robert Black,9.99,1,An intriguing mystery,Fiction,cover3.jpg,200,1
+Whispering Shadows,Echoes of the Past,Alice Monroe,15.99,1,A mysterious journey,Fiction,cover1 .jpg,120,1
+Sunrise Chronicles,A New Beginning,Michael Clarke,22.5,1,Inspiring tales of hope,Non-fiction,cover1 .jpg,80,1
+The Lost Kingdom,Legends Reborn,Emily Stone,18.75,2,An epic adventure,Fantasy,cover1.jpg,200,1
+Mystic River,Whispers of Fate,Daniel Green,12.99,1,A suspenseful mystery,Thriller,cover1 (4).jpg,60,0
+Celestial Dreams,Stars Align,Laura White,25,1,Romantic and dreamy,Romance,cover1 (5).jpg,150,1
+Edge of Reality,Beyond the Known,Kevin Black,19.95,2,A mind-bending tale,Science Fiction,cover1 (6).jpg,90,1
+Hidden Truths,Secrets Unveiled,Sophia Brown,14.99,1,Intriguing and revealing,Mystery,cover1 (7).jpg,110,1
+Reflections,Mirrors of Time,Robert Gray,17.49,1,A journey into the past,Historical Fiction,cover1 (8).jpg,130,1
+The Silent Watch,Guardians of Night,Olivia King,16.8,1,Thrilling night patrol,Horror,cover1 (9).jpg,75,0
+Infinite Paths,Roads to Destiny,George Hill,20,1,A philosophical journey,Non-fiction,cover1 (10).jpg,95,1
+Parallel Lives,Dimensions Collide,Natalie Grey,23.45,2,A multi-dimensional saga,Science Fiction,cover1 (11).jpg,85,1
+Forgotten Realms,Mysteries of the Ancients,Henry Ford,21.99,1,Ancient secrets uncovered,Fantasy,cover1 (12).jpg,140,1
+Labyrinth of Echoes,Maze of Memories,Rachel Adams,18.2,1,Intricate puzzles of the mind,Thriller,cover1 (13).jpg,60,0
+Eternal Quest,Journey Beyond,Paul Stevens,19.99,1,Adventure into eternity,Adventure,cover1 (14).jpg,100,1
+Veiled Horizons,Mysteries of the Sky,Amanda Ray,16.5,1,Exploring unknown skies,Science Fiction,cover1 (15).jpg,120,1
+The Final Chapter,Endings and Beginnings,Martin Scott,24.99,1,A dramatic conclusion,Drama,cover1 (16).jpg,80,1
+Chronicles of Time,Moments in History,Diana Ross,22,2,Tales across centuries,Historical,cover1 (17).jpg,110,1
+Dreamweaver,The Art of Illusion,Victor Hugo,15.75,1,Imaginative and surreal,Fantasy,cover1 (18).jpg,130,1
+Shattered Mirrors,Fragments of Life,Erica Johnson,17.99,1,Reflecting broken realities,Mystery,cover1 (19).jpg,90,0
+Beyond the Veil,Secrets of the Unknown,Samuel Turner,20.5,1,Exploring the unseen,Horror,cover1 (20).jpg,100,1

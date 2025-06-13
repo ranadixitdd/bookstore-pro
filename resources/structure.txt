@@ -1,0 +1,88 @@
+Folder PATH listing for volume Windows
+Volume serial number is 64B7-10BF
+C:.
+¦   structure.txt
+¦   
++---css
+¦       app.css
+¦       
++---js
+¦       app.js
+¦       bootstrap.js
+¦       
++---views
+    ¦   about.blade.php
+    ¦   account.blade.php
+    ¦   checkout.blade.php
+    ¦   contact.blade.php
+    ¦   home.blade.php
+    ¦   privacy.blade.php
+    ¦   project_structure.txt
+    ¦   search.blade.php
+    ¦   terms.blade.php
+    ¦   
+    +---admin
+    ¦   ¦   books.blade.php
+    ¦   ¦   dashboard.blade.php
+    ¦   ¦   users.blade.php
+    ¦   ¦   
+    ¦   +---orders
+    ¦   ¦       index.blade.php
+    ¦   ¦       view.blade.php
+    ¦   ¦       
+    ¦   +---products
+    ¦   ¦       add.blade.php
+    ¦   ¦       edit.blade.php
+    ¦   ¦       index.blade.php
+    ¦   ¦       
+    ¦   +---reports
+    ¦   ¦       index.blade.php
+    ¦   ¦       
+    ¦   +---users
+    ¦           index.blade.php
+    ¦           
+    +---auth
+    ¦       forgot-password.blade.php
+    ¦       login.blade.php
+    ¦       register.blade.php
+    ¦       reset-password.blade.php
+    ¦       
+    +---books
+    ¦       index.blade.php
+    ¦       show.blade.php
+    ¦       
+    +---cart
+    ¦       checkout.blade.php
+    ¦       index.blade.php
+    ¦       view.blade.php
+    ¦       
+    +---checkout
+    ¦       index.blade.php
+    ¦       process.blade.php
+    ¦       
+    +---layouts
+    ¦       admin.blade.php
+    ¦       app.blade.php
+    ¦       plain.blade.php
+    ¦       
+    +---orders
+    ¦       confirm.blade.php
+    ¦       details.blade.php
+    ¦       index.blade.php
+    ¦       
+    +---password
+    ¦       email.blade.php
+    ¦       request.blade.php
+    ¦       reset.blade.php
+    ¦       
+    +---products
+    ¦       add.blade.php
+    ¦       details.blade.php
+    ¦       index.blade.php
+    ¦       list.blade.php
+    ¦       show.blade.php
+    ¦       
+    +---user
+            edit.blade.php
+            profile.blade.php
+            

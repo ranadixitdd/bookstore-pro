@@ -82,7 +82,7 @@ php artisan serve
 
 ## 🙏 Credits & Ownership
 
-This project was created entirely by **Dixit Rana** (@iamdixitrana)
+This project was created entirely by **Dixit Rana** (@dixitrana)
 
 > Built alone, even though it was officially a “group project” 😄
 
@@ -100,12 +100,7 @@ This project is licensed under the [MIT License](LICENSE)
 
 ## 💰 Support & Custom Work
 
-I’m a student & solo developer — if you find this project helpful, consider supporting:
-
--   ☕ [Buy Me a Coffee](https://buymeacoffee.com/yourname)
--   💼 Need help or want a custom version? Contact me:
-    -   📧 Email: yourname@example.com
-    -   📱 WhatsApp: +91-84880 73058
+I’m a student & solo developer — if you find this project helpful, consider supporting
 
 ---
 
